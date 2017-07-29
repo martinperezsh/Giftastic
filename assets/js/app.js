@@ -1,4 +1,4 @@
-var buttonWords = ["One Piece", "Fairy Tail", "D Gray-Man", "Toriko", "Full Metal Alchemist", "Hunter x Hunter", "Yu Yu Hakusho", "Soul Eater"];
+var buttonWords = ["One Piece", "Fairy Tail", "D Gray-Man", "Toriko", "Full Metal Alchemist", "Hunter x Hunter", "Yu Yu Hakusho", "Soul Eater", "Gintama"];
 
 // creates buttons
 function renderbtns(){
