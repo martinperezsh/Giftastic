@@ -1,10 +1,28 @@
 body {
 	background-image: url(../images/bgimg.jpg);
 	background-size: cover;
+	color: blue;
+	font-family: "Alegreya", Bevan, Kanit, Montserrat, Vollkorn;
 }
 h1 {
 	text-align: center;
 	color: white;
 	font-family: "Alegreya", Bevan, Kanit, Montserrat, Vollkorn;
 	font-size: 45px;
+}
+.buttonMargin {
+	margin: 6px;
+}
+.gifBox {
+	float: left;
+	margin: 25px;
+}
+p {
+	float: left;
+}
+.buttonText {
+	font-size: 20px;
+}
+.panel {
+	opacity: 0.92;
 }

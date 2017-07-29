@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Giftastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya:900|Bevan|Kanit:800|Montserrat:900|Vollkorn:700" rel="stylesheet">
 </head>
@@ -13,25 +14,33 @@
 
 	<div class="container">
 <!--Area for the buttons  -->
-		<div class="col-lg-12">
-			<button data-anime="One Piece">One Piece</button>
-			<button data-anime="Fairy tail">Fairy Tail</button>
-			<button data-anime="Toriko">Toriko</button>
-			<button data-anime="D Gray Man">D. Gray-Man</button>
-			<button data-anime="Soul Eater">Soul Eater</button>
-			<button data-anime="Hunter x Hunter">Hunter X Hunter</button>
-			<button data-anime="Yu Yu Hakusho">Yu Yu Hakusho</button>
+		<div class="row">
+			<div class="col-lg-8">
+					<div id="buttonArea">
+						
+					</div>
+			
+			</div>
+			<div class="col-lg-4">
+				<form id="buttonAdd">
+					<label class="buttonText" for="searchBox">Add your own button!</label>
+					<input type="text" id="searchBox">
+					<input type="submit" id="submitSearch" value="ADD">
+				</form>
+			</div>
 		</div>
 		<div class="row">
 <!-- Area where gifs appear -->
-			<div  class="col-lg-7">
-				<div id="gifs-appear-here"></div>
+			<div  class="col-lg-10 col-lg-offset-1">
+				<div class="panel">
+					<div class="panel-body">
+						<div id="gifs-appear-here"></div>
+					</div>
+				</div>
 			</div>
-<!-- Search Bar -->
-			<div class="col-lg-4 col-lg-offset-1">
-				
-			</div>
+
 		</div>
+
 	</div>
 
 
