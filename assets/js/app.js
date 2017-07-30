@@ -22,7 +22,7 @@ $('#submitSearch').on('click', function(event){
 // Appending the buttons to the html
 $("#buttonArea").on("click", "button", function(){
 	var anime = $(this).attr("data-search");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         anime + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
